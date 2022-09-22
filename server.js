@@ -13,7 +13,8 @@ const app = express()
 const cors = require("cors")
 const mongoDB = require("mongodb")
 const MongoClient = mongoDB.MongoClient
-const URL = "mongodb+srv://Ramcharan:ramcharan@cluster0.x5qkemg.mongodb.net/?retryWrites=true&w=majority"
+const dotenv = require("dotenv")
+const URL = process.env.DB
 const DB = "API"
 
 // Middleware
