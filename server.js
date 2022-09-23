@@ -20,7 +20,7 @@ const DB = "API"
 // Middleware
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:3000"
+    origin:"https://rococo-cat-1dc06c.netlify.app"
 }))
 
 let users=[];
