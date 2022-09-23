@@ -20,7 +20,7 @@ const DB = "API"
 // Middleware
 app.use(express.json())
 app.use(cors({
-    origin:"https://rococo-cat-1dc06c.netlify.app"
+    origin:"https://node-practice.netlify.app"
 }))
 
 let users=[];
